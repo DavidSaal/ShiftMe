@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Images/logo.png" alt="logo" width="100%"/>
+<img src="Images/logo.png" alt="logo" width="60%"/>
 </p>
 
 ### Introduction
@@ -17,13 +17,13 @@ system and receiving information about them.
 
 ### Screenshots
 <p align="center">
-<img src="Images/1.jpg" alt="Home Screen" width="30%"/>
-<img src="Images/3.jpg" alt="Menu" width="30%"/>
-<img src="Images/4.jpg" alt="Account Setting" width="30%"/>
-<img src="Images/7.jpg" alt="Add New Shift" width="30%"/>
-<img src="Images/5.jpg" alt="Edit Account" width="30%"/>
-<img src="Images/6.jpg" alt="Change Password" width="30%"/>
-<img src="Images/2.jpg" alt="Registration Screen" width="30%"/>
-<img src="Images/8.jpg" alt="Shifts List" width="30%"/>
-<img src="Images/9.jpg" alt="Employee Screen (Add Button Disabled)" width="30%"/>
+<img src="Images/1.jpg" alt="Home Screen" width="32%"/>
+<img src="Images/3.jpg" alt="Menu" width="32%"/>
+<img src="Images/4.jpg" alt="Account Setting" width="32%"/>
+<img src="Images/7.jpg" alt="Add New Shift" width="32%"/>
+<img src="Images/5.jpg" alt="Edit Account" width="32%"/>
+<img src="Images/6.jpg" alt="Change Password" width="32%"/>
+<img src="Images/2.jpg" alt="Registration Screen" width="32%"/>
+<img src="Images/8.jpg" alt="Shifts List" width="32%"/>
+<img src="Images/9.jpg" alt="Employee Screen (Add Button Disabled)" width="32%"/>
 </p>
