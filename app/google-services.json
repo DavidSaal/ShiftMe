@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "131558150832",
+    "firebase_url": "https://shiftme-29f81.firebaseio.com",
+    "project_id": "shiftme-29f81",
+    "storage_bucket": "shiftme-29f81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131558150832:android:e7ad63d3f592bfa6f42175",
+        "android_client_info": {
+          "package_name": "com.example.shiftme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131558150832-hdq0mhalloo6cfqpgrreg1v81jv5ltok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOJa-AFZ1ZzIvunPqtWCxth19xfZK-EHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131558150832-hdq0mhalloo6cfqpgrreg1v81jv5ltok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

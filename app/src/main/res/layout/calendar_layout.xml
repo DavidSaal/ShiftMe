@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            app:compactCalendarCurrentDayBackgroundColor="#FF4081"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextSize="12sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/user_list"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:scrollbars="none" />
+
+        <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+            <com.venmo.view.TooltipView
+                android:id="@+id/userTooltip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="18dp"
+                android:gravity="center_horizontal"
+                android:elevation="16dp"
+                android:padding="8dp"
+                android:layout_gravity="end"
+                android:text="User List"
+                app:anchoredView="@id/btnAdd"
+                app:arrowAlignment="end"
+                app:arrowAlignmentOffset="32dp"
+                app:arrowLocation="bottom"
+                app:cornerRadius="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnAdd"
+                app:layout_constraintEnd_toEndOf="@+id/btnAdd"
+                android:textColor="@color/colorBlack"
+                app:tooltipColor="#D9DEE3" />
+
+            <com.venmo.view.TooltipView
+                android:id="@+id/addTooltip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="140dp"
+                android:gravity="center_horizontal"
+                android:elevation="16dp"
+                android:padding="8dp"
+                android:layout_gravity="end"
+                android:text="@string/click_here_to_add_worker"
+                app:anchoredView="@id/btnAdd"
+                app:arrowAlignment="end"
+                app:arrowAlignmentOffset="32dp"
+                app:arrowLocation="bottom"
+                app:cornerRadius="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnAdd"
+                app:layout_constraintEnd_toEndOf="@+id/btnAdd"
+                android:textColor="@color/colorBlack"
+                app:tooltipColor="#D9DEE3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnUserList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="10dp"
+                app:fabCustomSize="45dp"
+                app:tint="@color/colorWhite"
+                app:backgroundTint="@color/colorBorder"
+                android:src="@android:drawable/ic_menu_search"
+                tools:ignore="RtlHardcoded" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="262dp"
+                android:layout_marginBottom="10dp"
+                app:tint="@color/colorWhite"
+                app:fabCustomSize="45dp"
+                android:src="@android:drawable/ic_input_add"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

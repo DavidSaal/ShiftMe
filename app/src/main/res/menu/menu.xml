@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/accountSetting"
+        android:title="@string/account_setting"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/editAccount"
+                android:title="@string/edit_account" />
+            <item
+                android:id="@+id/changePass"
+                android:title="@string/change_password" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/deleteUser"
+        android:title="@string/delete_user"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/singout"
+        android:title="@string/sing_out"
+        app:showAsAction="never" />
+
+</menu>

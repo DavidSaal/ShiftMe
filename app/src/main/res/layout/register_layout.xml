@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorBorder"
+        android:textSize="12sp"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="24dp"
+        android:textSize="12sp"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="24dp"
+        android:textSize="12sp"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="24dp"
+        android:textSize="12sp"
+        android:inputType="textPassword"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:textColorHint="@color/colorBorder"
+        android:layout_marginTop="24dp"
+        android:textSize="12sp"
+        android:inputType="textPassword"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="12dp"/>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <CheckBox
+            android:id="@+id/managerCheckbox"
+            style="@style/CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/manager"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/managerPass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/manager_password"
+            android:textColorHint="@color/colorBorder"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:inputType="textPassword"
+            android:background="@drawable/brown_border"
+            android:maxLines="1"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/colorBlack"
+            android:padding="12dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

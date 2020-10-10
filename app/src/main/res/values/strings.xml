@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ShiftMe</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="enter_shift_time">Enter Shift</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="click_here_to_add_worker">Click here to add worker</string>
+    <string name="remember_me">Remember me</string>
+    <string name="delete_user">Delete Account</string>
+    <string name="sing_out">Sing Out</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="change_password">Change Password</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="edit_user">Edit User</string>
+    <string name="manager">Manager?</string>
+    <string name="manager_password">Manager Password</string>
+</resources>

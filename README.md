@@ -1,4 +1,7 @@
-# ShiftMe
+<p align="center">
+<img src="Images/logo.png" alt="logo" width="30%"/>
+</p>
+
 ### Introduction
 Shift manager app that syncs a real-time data from Firebase.
 The application allows registration of a manager and employees
@@ -13,42 +16,14 @@ system and receiving information about them.
 
 
 ### Screenshots
-> Home Screen
-
-![Home Screen](Images/1.jpg)
-
-> Registration Screen
-
-![Registration Screen](Images/2.jpg)
-
-> Menu
-
-![Menu](Images/3.jpg)
-
-> Account Setting
-
-![Account Setting](Images/4.jpg)
-
-> Edit Account
-
-![Edit Account](Images/5.jpg)
-
-> Change Password
-
-![Change Password](Images/6.jpg)
-
-> Add New Shift
-
-![Add New Shift](Images/7.jpg)
-
-> Shifts List
-
-![Shifts List](Images/8.jpg)
-
-> Green Mark On Day With Shifts
-
-![Green Mark On Day With Shifts](Images/8.jpg)
-
-> Employee Screen (Add Button Disabled)
-
-![Employee Screen (Add Button Disabled)](Images/8.jpg)
+<p align="center">
+<img src="Images/1.jpg" alt="Home Screen" width="32%"/>
+<img src="Images/1.jpg" alt="Registration Screen" width="32%"/>
+<img src="Images/1.jpg" alt="Menu" width="32%"/>
+<img src="Images/1.jpg" alt="Account Setting" width="32%"/>
+<img src="Images/1.jpg" alt="Edit Account" width="32%"/>
+<img src="Images/1.jpg" alt="Change Password" width="32%"/>
+<img src="Images/1.jpg" alt="Add New Shift" width="32%"/>
+<img src="Images/1.jpg" alt="Shifts List" width="32%"/>
+<img src="Images/1.jpg" alt="Employee Screen (Add Button Disabled)" width="32%"/>
+</p>
